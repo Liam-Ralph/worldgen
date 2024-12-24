@@ -1,3 +1,5 @@
 /.vscode
-/WorldGen
+/WorldGen/obj
+/WorldGen/bin
+/WorldGen/WorldGen.csproj
 /WorldGen.sln
