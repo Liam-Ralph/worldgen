@@ -2,7 +2,7 @@
 
     // VARIABLES
     static readonly Random random = new();
-    static readonly List<int> tiles = new();
+    static readonly List<int> tiles = [];
     static int width;
     static int height;
     static int islandSize;
