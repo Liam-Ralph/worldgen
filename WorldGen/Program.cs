@@ -288,7 +288,7 @@
 
     /// <summary>
     /// Counts the number of adjacent tiles equal to or
-    /// below in value (which is heigher in elevation)
+    /// below in value (which is higher in elevation)
     /// when compared to a passed value.
     /// </summary>
     /// <param name="tile">the tile to check</param>
