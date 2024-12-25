@@ -46,8 +46,9 @@
         double islandNumMultiplier;
         while(true){
             try{
-                #pragma warning disable CS8604
-                islandNumMultiplier = double.Parse(Console.ReadLine());
+                string? input = Console.ReadLine();
+                input ??= "";
+                islandNumMultiplier = double.Parse(input);
                 if(0 > islandNumMultiplier || islandNumMultiplier > 100){
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Answer must be between 0 and 100.");
