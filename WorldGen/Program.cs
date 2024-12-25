@@ -445,6 +445,14 @@
         Console.ForegroundColor = ConsoleColor.White;
     }
 
+    /// <summary>
+    /// Creates a list of integers in a random order.
+    /// Used to go through every possible x and y coordinate
+    /// in random order.
+    /// </summary>
+    /// <param name="maxType">Sets list length to map
+    /// height or width.</param>
+    /// <returns>A list of randomly-ordered integers.</returns>
     static List<int> RandomList(string maxType){
         List<int> randomList = new();
         int max;
