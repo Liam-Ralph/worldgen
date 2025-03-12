@@ -1,3 +1,5 @@
+## This project has been archived.
+
 # WorldGen
 ### Released August 2023
 ### Version 1.2
